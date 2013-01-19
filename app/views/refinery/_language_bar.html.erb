@@ -1,0 +1,7 @@
+<nav id='language_bar'>
+  <% Refinery::I18n.config.frontend_locales.each do |locale| %>
+    <span class="locale_icon">
+      <%= link_to(image_tag("refinery/icons/flags/#{locale}.png"), refinery.url_for(locale: locale)) %>
+    </span>
+  <% end %>
+</nav>
