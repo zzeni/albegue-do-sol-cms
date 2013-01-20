@@ -5,6 +5,11 @@ body {
   width: 800px;
 }
 
+#site_bar #site_bar_content {
+  width: auto;
+  margin: 0 6px;
+}
+
 h1, h2, h3 {
   margin-top: 0;
 }
@@ -78,7 +83,7 @@ header {
 #body_content {
   position: relative;
   #body {
-    margin: 25px 100px;
+    margin: 25px 30px;
   }
   .image-align-left {
     margin-right: 40px;
