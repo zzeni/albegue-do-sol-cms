@@ -1,0 +1,13 @@
+<% content_for :body_content_right do %>
+  <div id="gallery_slides">
+    <div class="slides_container">
+      <% @page.images.each_with_index do |image, index| %>
+        <div class="slide"><img alt="<%=raw @page.caption_for_image_index(index) %>" src="<%= image.thumbnail('450x450').url %>" /></div>
+      <% end %>
+    </div>
+    <a class="prev" href="#"><img alt="Arrow Prev" height="43" src="/assets/slides/arrow-prev.png" width="24" /></a>
+    <a class="next" href="#"><img alt="Arrow Next" height="43" src="/assets/slides/arrow-next.png" width="24" /></a>
+  </div>
+<% end %>
+
+<%= render :partial => "/refinery/content_page" %>

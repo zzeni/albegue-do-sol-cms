@@ -1,7 +1,7 @@
 #gallery_slides {
   display: inline-block;
-  width:708px;
-  margin-bottom: 20px;
+  width:700px;
+  margin: 0 46px 20px;
   position:relative;
   top:15px;
   left:0px;
@@ -11,12 +11,12 @@
     position:relative;
     display:none;
     width:708px;
-    height:300px;
+    height:450px;
     overflow:hidden;
 
     .slide {
       width:708px;
-      height:300px;
+      height:450px;
       display:block;
       text-align: center;
     }

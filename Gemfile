@@ -8,6 +8,7 @@ gem 'pg'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'awesome_print'
 end
 
 
